@@ -13,7 +13,7 @@ No one, but if you pretend to use the option that brings all your subscriptions 
 
 ## Usage Example
 
-* Importing all your subscriptions from your youtube channel id:
+## Importing all your subscriptions from your youtube channel id:
 
 ```
 $ python newsboat-urls-generator.py -i UIasndj8734nAJSNasfna2 -v
@@ -37,7 +37,7 @@ https://www.youtube.com/feeds/videos.xml?channel_id=UCAPR27YUyxmgwm3Wc2WSHLw "Yo
 
 ```
 
-* Generating a newsboat url from a any youtube channel URL
+## Generating a newsboat URL from a any youtube channel URL
 
 ```
 python newsboat-urls-generator.py --channel-url https://www.youtube.com/channel/UC2eYFnH61tmytImy1mTYvhA
@@ -53,9 +53,21 @@ python bewsboat-urls-generator.py --channel-url https://www.youtube.com/user/Chr
 https://www.youtube.com/feeds/videos.xml?channel_id=UCAPR27YUyxmgwm3Wc2WSHLw "Youtube" "!Chris Were"
 ```
 
+## Other options
 
+```
+python newsboat-urls-generator.py --help
 
+usage: newsboat-urls-generator.py [-h] [-i CHANNEL_ID] [-u CHANNEL_URL] [-v]
 
+optional arguments:
+  -h, --help            show this help message and exit
+  -i CHANNEL_ID, --channel-id CHANNEL_ID
+                        your youtube channel id
+  -u CHANNEL_URL, --channel-url CHANNEL_URL
+                        youtube url channel to convert. needs channel
+                        username.
+  -v, --verbose         verbose mode
 ```
 
 
