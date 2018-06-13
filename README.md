@@ -53,7 +53,7 @@ python bewsboat-urls-generator.py --channel-url https://www.youtube.com/user/Chr
 https://www.youtube.com/feeds/videos.xml?channel_id=UCAPR27YUyxmgwm3Wc2WSHLw "Youtube" "!Chris Were"
 ```
 
-## Other options
+## Available options
 
 ```
 python newsboat-urls-generator.py --help
