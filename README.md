@@ -19,9 +19,9 @@ No one, but if you pretend to use the option that brings all your subscriptions 
 $ python newsboat-urls-generator.py -i UIasndj8734nAJSNasfna2 -v
 
 Your channel id: AidnJamask82JamndkajhH 
-Generating for Luke Smith
+Generating for Cloth Map
 Generating for TED
-Generating for Chris Were
+Generating for Computerphile
 
 Done! A total of 3 channels written in my_urls file
 ```
@@ -29,9 +29,9 @@ Done! A total of 3 channels written in my_urls file
 The script will create a text file with the following content:
 
 ```
-https://www.youtube.com/feeds/videos.xml?channel_id=UC2eYFnH61tmytImy1mTYvhA "Youtube" "!Luke Smith"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCs_6gVNVQOgq6MGDdt3h8HQ "Youtube" "!Cloth Map"
 https://www.youtube.com/feeds/videos.xml?channel_id=UCAuUUnT6oDeKwE6v1NGQxug "Youtube" "!TED"
-https://www.youtube.com/feeds/videos.xml?channel_id=UCAPR27YUyxmgwm3Wc2WSHLw "Youtube" "!Chris Were"
+https://www.youtube.com/feeds/videos.xml?channel_id=UC9-y-6csu5WGm29I7JiwpnA "Youtube" "!Computerphile"
 
 "query:Youtube:tags # \"Youtube\""
 
@@ -40,9 +40,9 @@ https://www.youtube.com/feeds/videos.xml?channel_id=UCAPR27YUyxmgwm3Wc2WSHLw "Yo
 ## Generating a newsboat URL from a any youtube channel URL
 
 ```
-python newsboat-urls-generator.py --channel-url https://www.youtube.com/channel/UC2eYFnH61tmytImy1mTYvhA
+python newsboat-urls-generator.py --channel-url https://www.youtube.com/channel/UCs_6gVNVQOgq6MGDdt3h8HQ
 
-https://www.youtube.com/feeds/videos.xml?channel_id=UC2eYFnH61tmytImy1mTYvhA "Youtube" "!Luke Smith"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCs_6gVNVQOgq6MGDdt3h8HQ "Youtube" "!Cloth Map"
 ```
 
 Now from a URL that contains the username
