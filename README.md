@@ -48,9 +48,9 @@ https://www.youtube.com/feeds/videos.xml?channel_id=UCs_6gVNVQOgq6MGDdt3h8HQ "Yo
 Now from a URL that contains the username
 
 ```
-python bewsboat-urls-generator.py --channel-url https://www.youtube.com/user/ChrisWereDigital
+python bewsboat-urls-generator.py --channel-url https://www.youtube.com/user/Computerphile
 
-https://www.youtube.com/feeds/videos.xml?channel_id=UCAPR27YUyxmgwm3Wc2WSHLw "Youtube" "!Chris Were"
+https://www.youtube.com/feeds/videos.xml?channel_id=UC9-y-6csu5WGm29I7JiwpnA "Youtube" "!Computerphile"
 ```
 
 ## Available options
