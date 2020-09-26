@@ -14,7 +14,7 @@ No one, but if you pretend to use the option that brings all your subscriptions 
 
 * Check your [privacy settings](https://www.youtube.com/account_privacy). To run this script your subscriptions needs to be visible to others, so make sure the option bellow its uncheck. You can check this option again after running the script.
 
-![image](https://i.imgur.com/B30d1Ad.jpg)
+![image](https://i.imgur.com/160HSft.jpg)
 
 ## Usage Example
 
@@ -53,7 +53,7 @@ https://www.youtube.com/feeds/videos.xml?channel_id=UCs_6gVNVQOgq6MGDdt3h8HQ "Yo
 Now from a URL that contains the username
 
 ```
-python bewsboat-urls-generator.py --channel-url https://www.youtube.com/user/Computerphile
+python newsboat-urls-generator.py --channel-url https://www.youtube.com/user/Computerphile
 
 https://www.youtube.com/feeds/videos.xml?channel_id=UC9-y-6csu5WGm29I7JiwpnA "Youtube" "!Computerphile"
 ```
