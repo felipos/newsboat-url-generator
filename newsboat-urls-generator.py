@@ -1,4 +1,5 @@
 from xml.dom.minidom import parseString
+from config import CONFIG
 import requests
 import argparse
 import json
@@ -25,11 +26,16 @@ def generate_list(feed_url, args):
 
     i = 0
     f = open('newsboat_urls', 'w+')
-    api_key = 'AIzaSyBu8YAifpfHVbBR2wSbZ5a0Dp6WGEshy88'
+    api_key = CONFIG.get('API_KEY')
+
+    if not api_key:
+        print('You need to put your own API key first')
+        quit()
+
     page_token = 'CDIQAQ'
 
     while True:
-        
+
         request_url = 'https://www.googleapis.com/youtube/v3/subscriptions?' + \
                 'pageToken=' + page_token + \
                 '&part=snippet%2CcontentDetails&channelId=' + args.channel_id + \
@@ -39,7 +45,7 @@ def generate_list(feed_url, args):
         channel_list = json.loads(r.text)
 
         for channel in channel_list['items']:
-            
+
             channel_id = channel['snippet']['resourceId']['channelId']
             channel_title = channel['snippet']['title']
 

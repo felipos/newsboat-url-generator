@@ -2,14 +2,17 @@
 This script gets your Youtube subscriptions and generate a urls file for Newsboat
 
 ## Requirements
+
 No one, but if you pretend to use the option that brings all your subscriptions you may want to follow the steps bellow.
+
+* Generate a [google API key](https://developers.google.com/youtube/v3/getting-started) first.
 
 * You will need to find your youtube channel id through [this guide](https://support.google.com/youtube/answer/3250431?hl=en)
 (Remember, is the channel id, not the user id.)
 
 * Check your [privacy settings](https://www.youtube.com/account_privacy). To run this script your subscriptions needs to be visible to others, so make sure the option bellow its uncheck. You can check this option again after running the script.
 
-![image](https://i.imgur.com/B30d1Ad.jpg)  
+![image](https://i.imgur.com/B30d1Ad.jpg)
 
 ## Usage Example
 
@@ -18,7 +21,7 @@ No one, but if you pretend to use the option that brings all your subscriptions 
 ```
 $ python newsboat-urls-generator.py -i UIasndj8734nAJSNasfna2 -v
 
-Your channel id: AidnJamask82JamndkajhH 
+Your channel id: AidnJamask82JamndkajhH
 Generating for Cloth Map
 Generating for TED
 Generating for Computerphile
