@@ -7,6 +7,8 @@ No one, but if you pretend to use the option that brings all your subscriptions 
 
 * Generate a [google API key](https://developers.google.com/youtube/v3/getting-started) first.
 
+* Put your API key into config.py file.
+
 * You will need to find your youtube channel id through [this guide](https://support.google.com/youtube/answer/3250431?hl=en)
 (Remember, is the channel id, not the user id.)
 
